@@ -1,0 +1,51 @@
+\documentclass[paper=a4, 11pt]{article}
+
+\usepackage{graphicx} % include figures
+\usepackage{float}
+\usepackage[small]{caption2} 
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[numbered,framed, autolinebreaks]{mcode} % matlab code format
+
+\usepackage{geometry}
+\geometry{left=1.91cm,right=1.91cm,top=2.54cm,bottom=2.54cm}
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+
+
+\setlength{\parindent}{0em}
+
+\newcommand{\ex}[1]{\textbf{Exercise {#1}}\par}
+\newenvironment{question}[1]{\begin{trivlist}
+\item({\bfseries #1}) }{\end{trivlist}}
+\newenvironment{figures}[3]{\begin{figure}[H]
+  \centering \includegraphics[width=4in]{#1}
+  \caption{#2}\label{#3}
+\end{figure}}
+
+\lstset{language=Matlab}
+
+\title{	
+EECS 531: Computer Vision\\
+Assignment \#2
+}
+\author{Jing Chen} % Your name
+\date{\normalsize\today} % Today's date or a custom date
+\begin{document}
+\maketitle % Print the title
+
+\section{Problem Definition}
+
+\section{Method}
+
+\section{Implementation}
+
+\section{Results}
+
+\end{document} 
